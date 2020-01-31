@@ -1,0 +1,21 @@
+<!-- DOM.HTML
+ -->
+
+ <html>
+     <head>
+         <title>dom manipulation</title>
+         <script type = "text/javascript">
+function buttonClick()
+{
+    // alert("Button clicked");
+  var str=   document.getElementById("heading").innerHTML;
+    alert(str);
+}
+// buttonClick();
+         </script>
+     </head>
+     <body>
+         <button onclick="buttonClick()">Click me</button>
+         <h2 id = "heading">Some Random Text</h2>
+     </body>
+ </html>

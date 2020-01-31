@@ -1,0 +1,24 @@
+<!-- objects.html -->
+<html>
+    <head>
+        <title>objects</title>
+        <script type = "text/javascript">
+
+        function Cars(car_brand,car_model,price)
+        {
+            this.car_brand = car_brand;
+            this.car_model= car_model;
+            this.price= price;
+           this.teslaAutoPilot = function(){
+               document.write("this car has auto pilot");
+               }         }
+          var c1 = new Cars("tesla","model 3",35000);
+          var c2 = new Cars("mahindra","model 4",23456);
+           c1.teslaAutoPilot();
+           c2.teslaAutoPilot();
+
+
+
+        </script>
+    </head>
+</html>

@@ -1,0 +1,49 @@
+<html>
+    <head>
+
+        <title>Basic animation </title>
+        <script type ="text/javascript">
+        var width = 100;
+        var difference = 2;
+        var intervalID= 0;
+        // document.getElementById("img1").style.width = width;
+function increase()
+{
+    setInterval(zoomIn,20);
+}
+function decrease()
+{
+    intervalID = setInterval(zoomout,200);
+}
+// }function zoomIn():void
+function expand()
+{
+   if(width<200)
+   {
+       width = width+difference;
+       document.getElementById("img1").style.width = width;
+   } 
+   else{
+       clearInterval(intervalID);
+   }
+}
+function shrink()
+{
+    if(width>100)
+    {
+        width = width +difference;
+        document.getElementById("img1").style.width= width;
+
+    }
+}
+        
+        </script>
+    </head>
+    <body>
+<br<
+    <br>
+    <img onmouseover="increase()" onmouseout="decrease()" id = "img1" src = "image.jpg" width="100"/>
+
+
+    </body>
+</html>

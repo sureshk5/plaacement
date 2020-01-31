@@ -1,0 +1,40 @@
+li{
+    list-style:none;
+    padding: 5px;
+    margin: 10px;
+}
+
+.header {
+    text-align: center;
+    border: 1px solid;
+    margin: 5px;
+    padding: 5px;
+    background: rgb(169, 209, 89);         
+}
+                
+.innerContainer{
+    border: 1px solid;
+    text-align: center;
+    margin: 5px;
+    height:400;
+    /* overflow: scroll;        */
+    padding: 5px;
+    /* background-image:url("https://image.freepik.com/free-vector/blue-abstract-background-with-lights_1048-3309.jpg");                    */
+}
+form{
+    background:#ffccaa;
+    display-block:center;
+}
+h5{
+    text-align:center;
+    color:#ff23ff;              
+}
+label{
+    color: #464646;
+    text-shadow: 0 1px 0 #fff;
+    font-size: 14px;
+    font-weight: bold;
+}
+span{
+    color:#ff0000;
+}
